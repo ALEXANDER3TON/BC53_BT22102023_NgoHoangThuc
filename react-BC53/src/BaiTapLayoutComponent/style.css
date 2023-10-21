@@ -1,0 +1,33 @@
+.header .nav-item a {
+    color: rgb(126, 128, 129);
+}
+
+.header .active {
+    color: aliceblue !important;
+}
+
+.header a:hover {
+    color: aliceblue;
+}
+
+.itemContent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 39px;
+}
+.itemContent .item{
+    width: 100%;
+    text-align: center;
+}
+.item .cardTop{
+    padding: 80px;
+    background: rgba(196, 194, 194, 0.637);
+}
+.item .cardContent{
+    padding:30px 21px 64px 15px;
+}
+.item .cardBot {
+    background: #f1efef;
+    padding: 18px 30px;
+}
+
